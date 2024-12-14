@@ -1,0 +1,8 @@
+.links {
+  letter-spacing: 1px;
+}
+
+.outlinedText {
+  -webkit-text-stroke: 1px #000000;
+  border-bottom: 2px solid #000;
+}
