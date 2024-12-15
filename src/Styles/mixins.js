@@ -13,7 +13,8 @@ const styles = {
   btn_A:
     "bg-btnBg font-changa text-white text-[20px] font-semibold rounded-full shadow-md hover:bg-secondary transition-all duration-300 uppercase cursor-pointer ",
   heroHeadText:
-    "font-light font-zain text-[#002639] lg:text-[50px] sm:text-[40px] xs:text-[35px] text-[50px]   leading-[50px] lg:leading-[75px]   tracking-[0px]",
+    "font-light font-zain text-[#002639] text-[28px] sm:text-[35px] md:text-[40px] lg:text-[45px]                     leading-[35px] sm:leading-[45px]  md:leading-[55px] lg:leading-[65px]  ",
+
   heroSubText:
     "text-[#dfd9ff] font-medium lg:text-[30px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[40px]",
 

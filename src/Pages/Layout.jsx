@@ -6,9 +6,7 @@ function Layout() {
   const { i18n } = useTranslation();
   return (
     <>
-      <div
-        className="parent-container"
-        style={{ direction: i18n.language === "en" ? "ltr" : "rtl" }}>
+      <div style={{ direction: i18n.language === "en" ? "ltr" : "rtl" }}>
         <NavBar />
         <Outlet />
       </div>
