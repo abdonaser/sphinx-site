@@ -1,0 +1,14 @@
+.servicesArrow:hover {
+    background-color: #fff;
+    border: 2px solid;
+    border-color: #002639;
+}
+
+.servicesArrow:hover i {
+    color: #002639;
+}
+
+.servicesArrow,
+.servicesArrow i {
+    transition: all 0.1s;
+}

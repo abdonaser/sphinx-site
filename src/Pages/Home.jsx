@@ -7,8 +7,6 @@ import OurInfo from "../Components/Home/OurInfo/OurInfo";
 import ContactUs from "../Components/Home/ContactUs/ContactUs";
 
 function Home() {
-  const { t, i18n } = useTranslation();
-
   return (
     <>
       <Hero />

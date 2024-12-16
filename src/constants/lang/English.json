@@ -9,5 +9,26 @@
   },
   "hero": {
     "text": "To get the best service with the highest quality for Designing online stores, Websites and Applications"
+  },
+  "services": {
+    "headTitle": "OUR SERVICES",
+    "headSubTitle": "What we offer",
+    "sections": [
+      {
+        "id": "E-commerce design",
+        "sectionTitle": "E-commerce design",
+        "sectionDescription": "E-store developers, we are the best e-store design companies. We provide solutions and ideas that shorten your path to owning a successful store and increasing your sales."
+      },
+      {
+        "id": "Mobile application programming",
+        "sectionTitle": "Mobile application programming",
+        "sectionDescription": "Mobile apps enhance your reach to your customers more deeply, especially since mobile phones are now closer to their owners than their family members, according to recent market studies."
+      },
+      {
+        "id": "Website design",
+        "sectionTitle": "Website design",
+        "sectionDescription": "Your website is the best place to talk about you, explain your ideas and showcase your products. But for this to happen, your website design must be attractive and easy to use."
+      }
+    ]
   }
 }
