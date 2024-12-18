@@ -54,7 +54,7 @@ function NavBar() {
                 } hover:text-[#00B7EA] 
                 ${
                   active === link.title
-                    ? `text-[#00B7EA] sm:text-[22px] lg:text-[28px] font-[900]   ${navStyle.outlinedText}`
+                    ? `text-primary sm:text-[22px] lg:text-[28px] font-[900]   ${navStyle.outlinedText}`
                     : "text-black"
                 } `}
                 onClick={() => {

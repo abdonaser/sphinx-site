@@ -7,6 +7,7 @@ import {
 import heroStyle from "./Hero.module.css";
 import { styles } from "../../../Styles/mixins";
 import { whiteWave } from "../../../assets/Svgs";
+import WaveBackground from "../../Public/WaveBackground";
 
 function Hero() {
   const { t, i18n } = useTranslation();
@@ -43,7 +44,9 @@ function Hero() {
         </div>
 
         {/* SVG Background */}
+
         <svg
+          style={{ transform: "scaleX(-1)" }}
           className={`absolute -bottom-[2px] border-0 outline-0 p-0 m-0 left-0 w-full z-0   ${heroStyle.svgStyle}`}
           id="visual"
           viewBox="0 0 900 200" // Adjust height as needed

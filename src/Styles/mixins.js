@@ -8,7 +8,7 @@ const styles = {
 
   transitionAll: "transition-all duration-100",
 
-  text_C: "",
+  text_strok: "",
 
   btn_A:
     "bg-btnBg font-changa text-white text-[20px] font-semibold rounded-full shadow-md hover:bg-secondary transition-all duration-300 uppercase cursor-pointer ",
@@ -17,7 +17,10 @@ const styles = {
 
   // heroSubText:
   //   "text-[#dfd9ff] font-medium lg:text-[30px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[40px]",
-
+  mainSectionHeadText:
+    "font-changa text-[32px] text-center  font-extrabold text-[#36768E] p-0 m-0",
+  mainSectionSubText:
+    "font-zain  text-center text-[25px] font-normal text-[#848484] p-0 m-0",
   sectionHeadText:
     "font-zain text-[#000000]  text-[18px] sm:text-[22px] md:text-[25px] font-bold",
   sectionSubText:

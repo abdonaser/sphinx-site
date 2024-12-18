@@ -30,5 +30,64 @@
         "sectionDescription": "موقعك الإلكتروني هو أفضل من يتحدث عنك ويشرح أفكارك ويطرح منتجاتك. لكن حتى يحدث هذا، يجب أن يكون تصميم موقعك الإلكتروني جذاباً وسلساً في التعامل."
       }
     ]
+  },
+  "wyUs": {
+    "headTitle": "لماذا نحن ؟",
+    "headSubTitle": "كلام كلام كلام كلام كلام كلام كلام كلام كلام كلام كلام كلام",
+    "sections": [
+      {
+        "id": "technical support",
+        "title": "الدعم الفني",
+        "descripiton": "نقدم لك دعم فنى حقيقي متواجد 24 ساعه علي مدار اليوم"
+      },
+      {
+        "id": "Software experts",
+        "title": "خبراء في البرمجيات",
+        "descripiton": "نمتلك فريق عمل قوي من المبرمجين والمصممين"
+      },
+      {
+        "id": "Ideas & solutions",
+        "title": "أفكار وحلول",
+        "descripiton": "نقدم لك افكار ونساعدك حتى تبدأ بموقع احترافي"
+      },
+      {
+        "id": "Privacy and Security",
+        "title": "حماية حقيقية",
+        "descripiton": "نقدم لك نظام حمايه حقيقي وقوى لموقعك"
+      },
+      {
+        "id": "less time",
+        "title": "سرعة التسليم",
+        "descripiton": "ننتهي من عمل مشروعك في وقت قصير"
+      },
+      {
+        "id": "less Cost",
+        "title": "تكلفة أقل",
+        "descripiton": "نقدم لك مشروعك بسعر مميز وخاص بطلبك"
+      }
+    ]
+  },
+  "OurProject": {
+    "headTitle": "أعمالنا ومشروعتنا",
+    "headSubTitle": "نقدم أفضل الحلول والعروض المتاحة لـ تصميم المواقع.",
+    "projectCategories": [
+      {
+        "id": "All our projects",
+        "title": "كل أعمالنــا"
+      },
+      {
+        "id": "Company WebsitesOnline stores",
+        "title": "مواقع الشركات"
+      },
+      {
+        "id": "Online stores",
+        "title": "متاجر إلكترونية"
+      },
+      {
+        "id": "Educational websites",
+        "title": "مواقع تعليمية"
+      }
+    ],
+    "projects": []
   }
 }

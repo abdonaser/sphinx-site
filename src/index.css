@@ -12,14 +12,12 @@ body {
   margin: 0;
   padding: 0;
   background: rgb(255, 255, 255);
-  background: linear-gradient(
-    135deg,
-    rgba(255, 255, 255, 1) 12%,
-    rgba(255, 255, 255, 1) 23%,
-    rgba(158, 227, 254, 1) 46%,
-    rgba(255, 255, 255, 1) 80%,
-    rgba(255, 255, 255, 1) 95%
-  );
+  background: linear-gradient(135deg,
+      rgba(255, 255, 255, 1) 12%,
+      rgba(255, 255, 255, 1) 23%,
+      rgba(158, 227, 254, 1) 46%,
+      rgba(255, 255, 255, 1) 80%,
+      rgba(255, 255, 255, 1) 95%);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -46,6 +44,15 @@ a {
   text-decoration: none;
   color: inherit;
   transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.outlinedText {
+  -webkit-text-stroke: 1px #000000;
+}
+
+anchorhover:hover {
+  -webkit-text-stroke: 1px #000000;
+
 }
 
 /* a:hover {

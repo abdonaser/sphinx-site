@@ -6,8 +6,10 @@ export default {
     extend: {
       colors: {
         btnBg: "#002639",
-        // primary: "#050816",
-        // secondary: "#aaa6c3",
+        primary: "#00B7EA",
+        black: "#000",
+        white: "#FFFFFF",
+        // secondary: "#aaa6c3",3EC9FF
         // tertiary: "#151030",
       },
       boxShadow: {

@@ -30,5 +30,64 @@
         "sectionDescription": "Your website is the best place to talk about you, explain your ideas and showcase your products. But for this to happen, your website design must be attractive and easy to use."
       }
     ]
+  },
+  "wyUs": {
+    "headTitle": "Why us?",
+    "headSubTitle": "TEEXXXEET T TRTTRRTEERRERERERREEEEEEEEEEEEEEEEERERER",
+    "sections": [
+      {
+        "id": "technical support",
+        "title": "technical support",
+        "descripiton": "We provide you with real technical support available 24 hours a day."
+      },
+      {
+        "id": "Software experts",
+        "title": "Software experts",
+        "descripiton": "We have a strong team of programmers and designers."
+      },
+      {
+        "id": "Ideas & solutions",
+        "title": "Ideas & solutions",
+        "descripiton": "We provide you with ideas and help you start a professional website."
+      },
+      {
+        "id": "Privacy and Security",
+        "title": "Privacy and Security",
+        "descripiton": "We offer you a real and strong protection system for your site"
+      },
+      {
+        "id": "less time",
+        "title": "less time",
+        "descripiton": "We finish your project in a short time"
+      },
+      {
+        "id": "less Cost",
+        "title": "less Cost",
+        "descripiton": "We offer you your project at a special price, especially according to your request."
+      }
+    ]
+  },
+  "OurProject": {
+    "headTitle": "Our business and project",
+    "headSubTitle": "We provide the best solutions and offers available for website design.",
+    "projectCategories": [
+      {
+        "id": "All our projects",
+        "title": "All our projects"
+      },
+      {
+        "id": "Company Websites",
+        "title": "Company Websites"
+      },
+      {
+        "id": "Online stores",
+        "title": "Online stores"
+      },
+      {
+        "id": "Educational websites",
+        "title": "Educational websites"
+      }
+    ],
+    "projects": []
   }
 }

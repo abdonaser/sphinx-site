@@ -5,25 +5,21 @@ import {
   MobileapplicationDesign,
   WebsiteDesign,
 } from "../../../assets/images/servicesImages";
+import { styles } from "../../../Styles/mixins";
+import HeaderSection from "../../Public/HeaderSection";
 
 function OurServices() {
   const { t } = useTranslation();
   const services = t("services.sections", { returnObjects: true });
-  console.log(services);
 
   return (
     <>
       <div className="bg-[#fff]">
         <section className=" parent-container py-10 px-4  ">
-          <div className="text-center mb-8 pt-[20px]">
-            <h2 className="font-changa text-[32px]   font-extrabold text-[#36768E]">
-              {t("services.headTitle")}
-            </h2>
-            <p className="font-zain text-[25px]   font-normal text-[#848484]">
-              {t("services.headSubTitle")}
-            </p>
-          </div>
-
+          <HeaderSection
+            headTitle={t("services.headTitle")}
+            SubText={t("services.headSubTitle")}
+          />
           <div
             className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 py-5"
             style={{ direction: "ltr" }}>
