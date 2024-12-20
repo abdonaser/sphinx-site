@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next";
 import {
+  mainHomeYoung,
   SSWORD,
   youngHandsomeLeft,
   youngHandsomeright,
@@ -15,15 +16,30 @@ function Hero() {
   return (
     <>
       <div className="relative ">
-        <div className="parent-container   p-2 ">
-          <div className=" h-screen flex justify-start md:justify-between items-center z-[999]">
-            <div className="leftSIde md:w-[58%] md:py-10">
-              <h3 className={`${styles.heroHeadText} mb-4   `}>
+        <div className="parent-container  ">
+          <div className=" h-screen flex flex-col-reverse justify-end items-start md:flex-row   md:justify-between md:items-center z-[999]">
+            <div className="leftSIde   mx-auto w-[90%]  md:w-[58%] md:py-10  ">
+              <h3 className={`${styles.heroHeadText} my-4   `}>
                 {t("hero.text")}
               </h3>
               <div>
-                <img src={SSWORD} alt="SSWORD" />
+                <img
+                  src={SSWORD}
+                  alt="SSWORD"
+                  className=" w-[80%] sm:w-[75%] m-auto"
+                />
               </div>
+            </div>
+
+            <div
+              className={`  
+                flex md:hidden items-center   selection:  mx-auto  
+            `}>
+              <img
+                src={mainHomeYoung}
+                alt="youngHandsome"
+                className="w-[80%] sm:w-[50%] m-auto  "
+              />
             </div>
             <div
               className={`  

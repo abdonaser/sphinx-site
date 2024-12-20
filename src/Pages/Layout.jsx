@@ -25,11 +25,7 @@ function Layout() {
         <NavBar />
         <Outlet />
       </div>
-      {/* <div className="absolute  bottom-2 w-full flex justify-center items-start">
-         <a href="#about" className="z-[9]">
-          
-         </a>
-      </div> */}
+
       {scrolled && (
         <div
           className={`fixed bottom-5 right-5 w-[30px] h-[55px] border-4 border-[#36768E] flex justify-center px-2 rounded-3xl overflow-hidden cursor-pointer z-[99] 

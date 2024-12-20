@@ -89,5 +89,65 @@
       }
     ],
     "projects": []
+  },
+  "ContactUs": {
+    "headTitle": "اتصل بنا",
+    "headSubTitle": "دعونا نعمل معا",
+    "Form": [
+      {
+        "type": "",
+        "id": "Name",
+        "inputName": "الأسم"
+      },
+      {
+        "type": "email",
+        "id": "E-Mail",
+        "inputName": "البريد الخاص بك"
+      },
+      {
+        "type": "tel",
+        "id": "Phone Number",
+        "inputName": "رقم الهاتف"
+      },
+      {
+        "type": "",
+        "id": "Your request",
+        "inputName": "طلبك"
+      }
+    ]
+  },
+  "ourInfo": {
+    "mainText": "شركتنا واحدة من أفضل الشركات في مجال تطوير وتصميم المواقع والتطبيقات الإلكترونية.",
+    "links": {
+      "title": "أهم الروابط",
+      "links": [
+        { "id": "Home", "Text": "الرئيسية" },
+        { "id": "SERVICES", "Text": "الخدمات" },
+        { "id": "PROJECTS", "Text": "المشاريع" },
+        { "id": "ABOUT US", "Text": "من نحن" },
+        { "id": "CONTACT US", "Text": "اتصل بنا" },
+        { "id": "WHY US ?", "Text": "لماذا نحن ؟" }
+      ]
+    },
+    "contact": {
+      "title": "معلومات الاتصال",
+      "contacts": [
+        {
+          "id": "ADD",
+          "text": "عنـــــــــــــــــــــــــــــــــــوان",
+          "icon": "fa-home"
+        },
+        {
+          "id": "MESSAGES",
+          "text": "رسائــــــــــــــــــــــــــــــــل",
+          "icon": "fa-envelope"
+        },
+        {
+          "id": "01025 95 23 87",
+          "text": "01025 95 23 87",
+          "icon": "fa-phone-alt"
+        }
+      ]
+    }
   }
 }

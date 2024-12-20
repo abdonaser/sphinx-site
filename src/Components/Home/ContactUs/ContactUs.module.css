@@ -1,0 +1,7 @@
+@media (max-width: 1024px) {
+  .dynamicMargin {
+    /* margin-left: 0 !important; */
+    /* margin-right: 0 !important; */
+    margin-inline: auto !important;
+  }
+}

@@ -89,5 +89,41 @@
       }
     ],
     "projects": []
+  },
+  "ContactUs": {
+    "headTitle": "Contact us",
+    "headSubTitle": "Let's work together",
+    "Form": [
+      { "id": "Name", "inputName": "Name", "type": "" },
+      { "id": "E-Mail", "inputName": "E-Mail", "type": "email" },
+      { "id": "Phone Number", "inputName": "Phone Number", "type": "tel" },
+      { "id": "Your request", "inputName": "Your request", "type": "multiline" }
+    ]
+  },
+  "ourInfo": {
+    "mainText": "Our company is one of the best in the field of web and application development and design.",
+    "links": {
+      "title": "Most important links",
+      "links": [
+        { "id": "Home", "Text": "home" },
+        { "id": "SERVICES", "Text": "SERVICES" },
+        { "id": "PROJECTS", "Text": "PROJECTS" },
+        { "id": "ABOUT US", "Text": "ABOUT US" },
+        { "id": "CONTACT US", "Text": "CONTACT US" },
+        { "id": "WHY US ?", "Text": "WHY US ?" }
+      ]
+    },
+    "contact": {
+      "title": "Contact information",
+      "contacts": [
+        { "id": "ADD", "text": "ADD", "icon": "fa-home" },
+        { "id": "MESSAGES", "text": "MESSAGES", "icon": "fa-envelope" },
+        {
+          "id": "01025 95 23 87",
+          "text": "01025 95 23 87",
+          "icon": "fa-phone-alt"
+        }
+      ]
+    }
   }
 }
