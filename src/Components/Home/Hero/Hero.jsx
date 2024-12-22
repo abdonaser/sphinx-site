@@ -9,17 +9,17 @@ import heroStyle from "./Hero.module.css";
 import { styles } from "../../../Styles/mixins";
 import { whiteWave } from "../../../assets/Svgs";
 import WaveBackground from "../../Public/WaveBackground";
-
+import SectionWrapper from "../../../hoc/SectionWrapper";
 function Hero() {
   const { t, i18n } = useTranslation();
   // i18n.changeLanguage("en")
   return (
     <>
-      <div className="relative ">
+      <div className="relative">
         <div className="parent-container  ">
-          <div className=" h-screen flex flex-col-reverse justify-end items-start md:flex-row   md:justify-between md:items-center z-[999]">
+          <div className="start:h-85vh mxs:h-90vh  xs:h-100vh sm:h-screen flex flex-col-reverse justify-end items-start md:flex-row   md:justify-between md:items-center z-[999]">
             <div className="leftSIde   mx-auto w-[90%]  md:w-[58%] md:py-10  ">
-              <h3 className={`${styles.heroHeadText} my-4   `}>
+              <h3 className={`${styles.heroHeadText} my-4`}>
                 {t("hero.text")}
               </h3>
               <div>
@@ -91,4 +91,4 @@ function Hero() {
   );
 }
 
-export default Hero;
+export default SectionWrapper(Hero, "hero");

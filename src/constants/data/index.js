@@ -1,3 +1,4 @@
 import { navLinks } from "./NavBarLinks";
+import { allprojects } from "./projects";
 
-export { navLinks };
+export { navLinks, allprojects };

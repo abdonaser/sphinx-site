@@ -105,12 +105,12 @@
     "links": {
       "title": "Most important links",
       "links": [
-        { "id": "Home", "Text": "home" },
-        { "id": "SERVICES", "Text": "SERVICES" },
-        { "id": "PROJECTS", "Text": "PROJECTS" },
-        { "id": "ABOUT US", "Text": "ABOUT US" },
-        { "id": "CONTACT US", "Text": "CONTACT US" },
-        { "id": "WHY US ?", "Text": "WHY US ?" }
+        { "id": "hero", "Text": "home" },
+        { "id": "services", "Text": "SERVICES" },
+        { "id": "projects", "Text": "PROJECTS" },
+        { "id": "aboutUS", "Text": "ABOUT US" },
+        { "id": "contactUS", "Text": "CONTACT US" },
+        { "id": "whyUs", "Text": "WHY US ?" }
       ]
     },
     "contact": {

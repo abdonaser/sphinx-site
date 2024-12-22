@@ -7,6 +7,7 @@ import {
 } from "../../../assets/images/servicesImages";
 import { styles } from "../../../Styles/mixins";
 import HeaderSection from "../../Public/HeaderSection";
+import SectionWrapper from "../../../hoc/SectionWrapper";
 
 function OurServices() {
   const { t } = useTranslation();
@@ -14,8 +15,8 @@ function OurServices() {
 
   return (
     <>
-      <div className="bg-[#fff]">
-        <section className=" parent-container py-10 px-4  ">
+      <div className="bg-[#fff] p-0 m-0">
+        <section className=" parent-container px-4">
           <HeaderSection
             headTitle={t("services.headTitle")}
             SubText={t("services.headSubTitle")}
@@ -39,4 +40,4 @@ function OurServices() {
   );
 }
 
-export default OurServices;
+export default SectionWrapper(OurServices, "services");

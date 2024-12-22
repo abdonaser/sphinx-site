@@ -28,7 +28,10 @@ function Layout() {
 
       {scrolled && (
         <div
-          className={`fixed bottom-5 right-5 w-[30px] h-[55px] border-4 border-[#36768E] flex justify-center px-2 rounded-3xl overflow-hidden cursor-pointer z-[99] 
+          className={`fixed bottom-5 right-5 
+            w-[20px] h-[45px] 
+            md:w-[30px] md:h-[55px] 
+            border-4 border-[#36768E] flex justify-center px-2 rounded-3xl overflow-hidden cursor-pointer z-[99] 
       transition-all duration-300 ${
         scrolled ? "opacity-100" : "opacity-0 pointer-events-none"
       }`}

@@ -3,6 +3,7 @@ import { styles } from "../../../Styles/mixins";
 import WyUsSection from "./wyUsSection";
 import WaveBackground from "../../Public/WaveBackground";
 import HeaderSection from "../../Public/HeaderSection";
+import SectionWrapper from "../../../hoc/SectionWrapper";
 
 function WhyUs() {
   const { t } = useTranslation();
@@ -33,4 +34,4 @@ function WhyUs() {
   );
 }
 
-export default WhyUs;
+export default SectionWrapper(WhyUs, "whyUs");

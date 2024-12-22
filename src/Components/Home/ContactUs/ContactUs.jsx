@@ -11,6 +11,7 @@ import { useState } from "react";
 import FormInput from "./FormInput";
 import ContactInfo from "./ContactInfo";
 import ourStyle from "./ContactUS.module.css";
+import SectionWrapper from "../../../hoc/SectionWrapper";
 function ContactUs() {
   const { t, i18n } = useTranslation();
 
@@ -149,4 +150,4 @@ function ContactUs() {
   );
 }
 
-export default ContactUs;
+export default SectionWrapper(ContactUs, "contactUS");
