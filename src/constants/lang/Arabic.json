@@ -95,7 +95,7 @@
     "headSubTitle": "دعونا نعمل معا",
     "Form": [
       {
-        "type": "",
+        "type": "text",
         "id": "Name",
         "inputName": "الأسم"
       },
@@ -110,7 +110,7 @@
         "inputName": "رقم الهاتف"
       },
       {
-        "type": "",
+        "type": "textarea",
         "id": "Your request",
         "inputName": "طلبك"
       }

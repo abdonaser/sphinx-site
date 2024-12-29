@@ -9,7 +9,8 @@ const SectionWrapper = (Component, idName) =>
         variants={staggerContainer()}
         initial="hidden"
         whileInView="show"
-        viewport={{ once: true, amount: 0.25 }}>
+        viewport={{ once: true, amount: 0.25 }}
+        className="bg-transparent ">
         <span className="hash-span"></span>
         <Component {...props} />
       </motion.section>

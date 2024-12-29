@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import HeaderSection from "../../Public/HeaderSection";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import ourStyle from "./OurBusinessAndProject.module.css";
 import SectionWrapper from "../../../hoc/SectionWrapper";
 import { allprojects } from "../../../constants/data";
@@ -8,11 +8,14 @@ import ProjectCard from "./ProjectCard";
 import ProjectCardBG from "./ProjectCardBG";
 
 function OurBusinessAndProject() {
-  const [active, setActive] = useState("All our projects");
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const projectCategories = t("OurProject.projectCategories", {
     returnObjects: true,
   });
+  const [active, setActive] = useState(projectCategories[0]?.id);
+
+  console.log("active -> ", active);
+
   return (
     <>
       <div className="relative ">
@@ -39,11 +42,11 @@ function OurBusinessAndProject() {
                     : ""
                 } `}
                       onClick={() => {
-                        setActive(cat.title);
+                        setActive(cat.id);
                       }}>
                       {t(`${cat.title}`)}
                     </a>
-                    {active === cat.title && (
+                    {active === cat.id && (
                       <div
                         className="
                       absolute z-[99] -bottom-[39px] left-1/2 transform -translate-x-1/2 translate-y-[10px] 

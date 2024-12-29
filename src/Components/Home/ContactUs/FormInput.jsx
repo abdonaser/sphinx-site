@@ -56,7 +56,6 @@ const FormInput = ({
           },
         }}
         sx={{
-          direction: direction,
           textAlign: textAlign,
           borderColor: "#ccc",
           "& .MuiOutlinedInput-root": {

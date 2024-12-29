@@ -94,10 +94,10 @@
     "headTitle": "Contact us",
     "headSubTitle": "Let's work together",
     "Form": [
-      { "id": "Name", "inputName": "Name", "type": "" },
-      { "id": "E-Mail", "inputName": "E-Mail", "type": "email" },
-      { "id": "Phone Number", "inputName": "Phone Number", "type": "tel" },
-      { "id": "Your request", "inputName": "Your request", "type": "multiline" }
+      { "id": "name", "inputName": "Name", "type": "text" },
+      { "id": "eMail", "inputName": "E-Mail", "type": "email" },
+      { "id": "phoneNumber", "inputName": "Phone Number", "type": "tel" },
+      { "id": "yourRequest", "inputName": "Your request", "type": "textarea" }
     ]
   },
   "ourInfo": {

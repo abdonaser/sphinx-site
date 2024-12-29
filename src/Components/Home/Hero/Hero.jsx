@@ -16,7 +16,7 @@ function Hero() {
   return (
     <>
       <div className="relative">
-        <div className="parent-container  ">
+        <div className="parent-container   ">
           <div className="start:h-85vh mxs:h-90vh  xs:h-100vh sm:h-screen flex flex-col-reverse justify-end items-start md:flex-row   md:justify-between md:items-center z-[999]">
             <div className="leftSIde   mx-auto w-[90%]  md:w-[58%] md:py-10  ">
               <h3 className={`${styles.heroHeadText} my-4`}>

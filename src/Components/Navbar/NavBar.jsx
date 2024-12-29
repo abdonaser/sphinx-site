@@ -13,7 +13,9 @@ function NavBar() {
   const [toggle, setToggle] = useState(false);
 
   const toggleLanguage = () => {
-    i18n.changeLanguage(i18n.language === "en" ? "ar" : "en");
+    const newLanguage = i18n.language === "en" ? "ar" : "en";
+    i18n.changeLanguage(newLanguage);
+    localStorage.setItem("language", newLanguage);
   };
 
   return (

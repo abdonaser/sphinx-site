@@ -12,6 +12,7 @@ import FormInput from "./FormInput";
 import ContactInfo from "./ContactInfo";
 import ourStyle from "./ContactUS.module.css";
 import SectionWrapper from "../../../hoc/SectionWrapper";
+import CustomeInput from "./CustomeInput";
 function ContactUs() {
   const { t, i18n } = useTranslation();
 
@@ -23,9 +24,9 @@ function ContactUs() {
 
   const [formData, setFormData] = useState({
     name: "",
-    email: "",
-    phone: "",
-    request: "",
+    eMail: "",
+    phoneNumber: "",
+    yourRequest: "",
   });
 
   const handleChange = (e) => {
@@ -38,7 +39,6 @@ function ContactUs() {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log("Form submitted:", formData);
-    // Add your submission logic here
   };
   return (
     <>
@@ -88,7 +88,7 @@ function ContactUs() {
                         ? "marginLeft"
                         : "marginRight"]: `${50 * index}px`,
                     }}>
-                    <FormInput
+                    {/* <FormInput
                       label={input.inputName}
                       name={input.id}
                       value={formData[input.id]}
@@ -97,9 +97,18 @@ function ContactUs() {
                       language={i18n.language}
                       marginSpace={35 * index}
                       index={index}
+                    /> */}
+                    <CustomeInput
+                      label={input.inputName}
+                      type={input.type}
+                      name={input.id}
+                      id={name}
+                      value={formData[input.id]}
+                      onChange={handleChange}
                     />
                   </div>
                 ))}
+
                 <div className="w-full flex justify-center items-center">
                   <button
                     className="
